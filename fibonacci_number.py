@@ -3,7 +3,7 @@
 def fibonacci(n):
   a=0
   b=1
-  for n in range(n):
+  for i in range(n-2):
     c=a+b
     a=b
     b=c
